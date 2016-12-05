@@ -14,6 +14,7 @@
 		C44E4B271DF5011B00741D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44E4B251DF5011B00741D13 /* Main.storyboard */; };
 		C44E4B291DF5011B00741D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44E4B281DF5011B00741D13 /* Assets.xcassets */; };
 		C44E4B2C1DF5011B00741D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44E4B2A1DF5011B00741D13 /* LaunchScreen.storyboard */; };
+		C44E4B3F1DF50B8500741D13 /* PBFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E4B3E1DF50B8500741D13 /* PBFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		C44E4B281DF5011B00741D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44E4B2B1DF5011B00741D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C44E4B2D1DF5011B00741D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44E4B3D1DF50B8500741D13 /* PBFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFileManager.h; sourceTree = "<group>"; };
+		C44E4B3E1DF50B8500741D13 /* PBFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				C44E4B2A1DF5011B00741D13 /* LaunchScreen.storyboard */,
 				C44E4B2D1DF5011B00741D13 /* Info.plist */,
 				C44E4B1C1DF5011B00741D13 /* Supporting Files */,
+				C44E4B3D1DF50B8500741D13 /* PBFileManager.h */,
+				C44E4B3E1DF50B8500741D13 /* PBFileManager.m */,
 			);
 			path = PhotoBatchImport;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 				C44E4B241DF5011B00741D13 /* ViewController.m in Sources */,
 				C44E4B211DF5011B00741D13 /* AppDelegate.m in Sources */,
 				C44E4B1E1DF5011B00741D13 /* main.m in Sources */,
+				C44E4B3F1DF50B8500741D13 /* PBFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
