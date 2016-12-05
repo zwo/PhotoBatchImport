@@ -1,0 +1,18 @@
+PODS:
+  - ALAssetsLibrary-CustomPhotoAlbum (1.3.1)
+  - Masonry (1.0.2)
+  - SVProgressHUD (2.0.4)
+
+DEPENDENCIES:
+  - ALAssetsLibrary-CustomPhotoAlbum
+  - Masonry (~> 1.0.0)
+  - SVProgressHUD (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  ALAssetsLibrary-CustomPhotoAlbum: 299ea3f58e988b453b19c595859354e562814c93
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+
+PODFILE CHECKSUM: d384b11a0d1b6e379de4c0ac1ac4bb0841332b4f
+
+COCOAPODS: 1.0.1

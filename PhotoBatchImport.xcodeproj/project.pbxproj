@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AC2482F047511321F9706A6 /* libPods-PhotoBatchImport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B95B9B278E25BD44E9261C6 /* libPods-PhotoBatchImport.a */; };
 		C44E4B1E1DF5011B00741D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E4B1D1DF5011B00741D13 /* main.m */; };
 		C44E4B211DF5011B00741D13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E4B201DF5011B00741D13 /* AppDelegate.m */; };
 		C44E4B241DF5011B00741D13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E4B231DF5011B00741D13 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B95B9B278E25BD44E9261C6 /* libPods-PhotoBatchImport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoBatchImport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5A53E532599B5B581C8518 /* Pods-PhotoBatchImport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBatchImport.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBatchImport/Pods-PhotoBatchImport.release.xcconfig"; sourceTree = "<group>"; };
+		B3B9D19CAE0FC7C5254BA502 /* Pods-PhotoBatchImport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBatchImport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBatchImport/Pods-PhotoBatchImport.debug.xcconfig"; sourceTree = "<group>"; };
 		C44E4B191DF5011B00741D13 /* PhotoBatchImport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBatchImport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44E4B1D1DF5011B00741D13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C44E4B1F1DF5011B00741D13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC2482F047511321F9706A6 /* libPods-PhotoBatchImport.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CCD0378130A5D9BA45632F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B95B9B278E25BD44E9261C6 /* libPods-PhotoBatchImport.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B31F4E064F7B229CA76BFF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3B9D19CAE0FC7C5254BA502 /* Pods-PhotoBatchImport.debug.xcconfig */,
+				3E5A53E532599B5B581C8518 /* Pods-PhotoBatchImport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C44E4B101DF5011B00741D13 = {
 			isa = PBXGroup;
 			children = (
 				C44E4B1B1DF5011B00741D13 /* PhotoBatchImport */,
 				C44E4B1A1DF5011B00741D13 /* Products */,
+				6B31F4E064F7B229CA76BFF4 /* Pods */,
+				4CCD0378130A5D9BA45632F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44E4B301DF5011B00741D13 /* Build configuration list for PBXNativeTarget "PhotoBatchImport" */;
 			buildPhases = (
+				CAB47DC4679F82B6AF584C6B /* [CP] Check Pods Manifest.lock */,
 				C44E4B151DF5011B00741D13 /* Sources */,
 				C44E4B161DF5011B00741D13 /* Frameworks */,
 				C44E4B171DF5011B00741D13 /* Resources */,
+				CCDB4F00E4E16AADCBE27347 /* [CP] Embed Pods Frameworks */,
+				86960A0B55F7B2F13BE62316 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,6 +170,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86960A0B55F7B2F13BE62316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBatchImport/Pods-PhotoBatchImport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB47DC4679F82B6AF584C6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCDB4F00E4E16AADCBE27347 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBatchImport/Pods-PhotoBatchImport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C44E4B151DF5011B00741D13 /* Sources */ = {
@@ -263,9 +338,11 @@
 		};
 		C44E4B311DF5011B00741D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B9D19CAE0FC7C5254BA502 /* Pods-PhotoBatchImport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBatchImport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rfchina.PhotoBatchImport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,9 +351,11 @@
 		};
 		C44E4B321DF5011B00741D13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5A53E532599B5B581C8518 /* Pods-PhotoBatchImport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBatchImport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rfchina.PhotoBatchImport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +381,7 @@
 				C44E4B321DF5011B00741D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
