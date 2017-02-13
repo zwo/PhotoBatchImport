@@ -15,6 +15,17 @@
 		C44E4B291DF5011B00741D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44E4B281DF5011B00741D13 /* Assets.xcassets */; };
 		C44E4B2C1DF5011B00741D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44E4B2A1DF5011B00741D13 /* LaunchScreen.storyboard */; };
 		C44E4B3F1DF50B8500741D13 /* PBFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E4B3E1DF50B8500741D13 /* PBFileManager.m */; };
+		C47EEC6F1E51878100A7B949 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC651E51878100A7B949 /* ioapi.c */; };
+		C47EEC701E51878100A7B949 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC671E51878100A7B949 /* mztools.c */; };
+		C47EEC711E51878100A7B949 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC691E51878100A7B949 /* unzip.c */; };
+		C47EEC721E51878100A7B949 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC6B1E51878100A7B949 /* zip.c */; };
+		C47EEC731E51878100A7B949 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC6E1E51878100A7B949 /* SSZipArchive.m */; };
+		C47EEC751E518BDA00A7B949 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C47EEC741E518BDA00A7B949 /* libz.tbd */; };
+		C47EEC8B1E518D1000A7B949 /* DaiDodgeKeyboard+AccessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC821E518D1000A7B949 /* DaiDodgeKeyboard+AccessObject.m */; };
+		C47EEC8C1E518D1000A7B949 /* DaiDodgeKeyboard+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC841E518D1000A7B949 /* DaiDodgeKeyboard+Animation.m */; };
+		C47EEC8D1E518D1000A7B949 /* DaiDodgeKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC861E518D1000A7B949 /* DaiDodgeKeyboard.m */; };
+		C47EEC8E1E518D1000A7B949 /* DaiDodgeKeyboardObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC881E518D1000A7B949 /* DaiDodgeKeyboardObjects.m */; };
+		C47EEC8F1E518D1000A7B949 /* UIView+FirstResponderNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = C47EEC8A1E518D1000A7B949 /* UIView+FirstResponderNotify.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +44,29 @@
 		C44E4B2D1DF5011B00741D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C44E4B3D1DF50B8500741D13 /* PBFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFileManager.h; sourceTree = "<group>"; };
 		C44E4B3E1DF50B8500741D13 /* PBFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFileManager.m; sourceTree = "<group>"; };
+		C47EEC641E51878100A7B949 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		C47EEC651E51878100A7B949 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		C47EEC661E51878100A7B949 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		C47EEC671E51878100A7B949 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		C47EEC681E51878100A7B949 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		C47EEC691E51878100A7B949 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		C47EEC6A1E51878100A7B949 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		C47EEC6B1E51878100A7B949 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		C47EEC6C1E51878100A7B949 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		C47EEC6D1E51878100A7B949 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		C47EEC6E1E51878100A7B949 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		C47EEC741E518BDA00A7B949 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C47EEC811E518D1000A7B949 /* DaiDodgeKeyboard+AccessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DaiDodgeKeyboard+AccessObject.h"; sourceTree = "<group>"; };
+		C47EEC821E518D1000A7B949 /* DaiDodgeKeyboard+AccessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DaiDodgeKeyboard+AccessObject.m"; sourceTree = "<group>"; };
+		C47EEC831E518D1000A7B949 /* DaiDodgeKeyboard+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DaiDodgeKeyboard+Animation.h"; sourceTree = "<group>"; };
+		C47EEC841E518D1000A7B949 /* DaiDodgeKeyboard+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DaiDodgeKeyboard+Animation.m"; sourceTree = "<group>"; };
+		C47EEC851E518D1000A7B949 /* DaiDodgeKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDodgeKeyboard.h; sourceTree = "<group>"; };
+		C47EEC861E518D1000A7B949 /* DaiDodgeKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDodgeKeyboard.m; sourceTree = "<group>"; };
+		C47EEC871E518D1000A7B949 /* DaiDodgeKeyboardObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDodgeKeyboardObjects.h; sourceTree = "<group>"; };
+		C47EEC881E518D1000A7B949 /* DaiDodgeKeyboardObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDodgeKeyboardObjects.m; sourceTree = "<group>"; };
+		C47EEC891E518D1000A7B949 /* UIView+FirstResponderNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FirstResponderNotify.h"; sourceTree = "<group>"; };
+		C47EEC8A1E518D1000A7B949 /* UIView+FirstResponderNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FirstResponderNotify.m"; sourceTree = "<group>"; };
+		C47EEC901E518D7800A7B949 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47EEC751E518BDA00A7B949 /* libz.tbd in Frameworks */,
 				2AC2482F047511321F9706A6 /* libPods-PhotoBatchImport.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +85,7 @@
 		4CCD0378130A5D9BA45632F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C47EEC741E518BDA00A7B949 /* libz.tbd */,
 				3B95B9B278E25BD44E9261C6 /* libPods-PhotoBatchImport.a */,
 			);
 			name = Frameworks;
@@ -85,6 +121,8 @@
 		C44E4B1B1DF5011B00741D13 /* PhotoBatchImport */ = {
 			isa = PBXGroup;
 			children = (
+				C47EEC801E518D1000A7B949 /* DaiDodgeKeyboard */,
+				C47EEC621E51878100A7B949 /* SSZipArchive */,
 				C44E4B1F1DF5011B00741D13 /* AppDelegate.h */,
 				C44E4B201DF5011B00741D13 /* AppDelegate.m */,
 				C44E4B221DF5011B00741D13 /* ViewController.h */,
@@ -104,8 +142,52 @@
 			isa = PBXGroup;
 			children = (
 				C44E4B1D1DF5011B00741D13 /* main.m */,
+				C47EEC901E518D7800A7B949 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47EEC621E51878100A7B949 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				C47EEC631E51878100A7B949 /* minizip */,
+				C47EEC6D1E51878100A7B949 /* SSZipArchive.h */,
+				C47EEC6E1E51878100A7B949 /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		C47EEC631E51878100A7B949 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				C47EEC641E51878100A7B949 /* crypt.h */,
+				C47EEC651E51878100A7B949 /* ioapi.c */,
+				C47EEC661E51878100A7B949 /* ioapi.h */,
+				C47EEC671E51878100A7B949 /* mztools.c */,
+				C47EEC681E51878100A7B949 /* mztools.h */,
+				C47EEC691E51878100A7B949 /* unzip.c */,
+				C47EEC6A1E51878100A7B949 /* unzip.h */,
+				C47EEC6B1E51878100A7B949 /* zip.c */,
+				C47EEC6C1E51878100A7B949 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		C47EEC801E518D1000A7B949 /* DaiDodgeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C47EEC811E518D1000A7B949 /* DaiDodgeKeyboard+AccessObject.h */,
+				C47EEC821E518D1000A7B949 /* DaiDodgeKeyboard+AccessObject.m */,
+				C47EEC831E518D1000A7B949 /* DaiDodgeKeyboard+Animation.h */,
+				C47EEC841E518D1000A7B949 /* DaiDodgeKeyboard+Animation.m */,
+				C47EEC851E518D1000A7B949 /* DaiDodgeKeyboard.h */,
+				C47EEC861E518D1000A7B949 /* DaiDodgeKeyboard.m */,
+				C47EEC871E518D1000A7B949 /* DaiDodgeKeyboardObjects.h */,
+				C47EEC881E518D1000A7B949 /* DaiDodgeKeyboardObjects.m */,
+				C47EEC891E518D1000A7B949 /* UIView+FirstResponderNotify.h */,
+				C47EEC8A1E518D1000A7B949 /* UIView+FirstResponderNotify.m */,
+			);
+			path = DaiDodgeKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +312,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C44E4B241DF5011B00741D13 /* ViewController.m in Sources */,
+				C47EEC8F1E518D1000A7B949 /* UIView+FirstResponderNotify.m in Sources */,
+				C47EEC721E51878100A7B949 /* zip.c in Sources */,
+				C47EEC8B1E518D1000A7B949 /* DaiDodgeKeyboard+AccessObject.m in Sources */,
+				C47EEC8D1E518D1000A7B949 /* DaiDodgeKeyboard.m in Sources */,
+				C47EEC731E51878100A7B949 /* SSZipArchive.m in Sources */,
+				C47EEC711E51878100A7B949 /* unzip.c in Sources */,
+				C47EEC8E1E518D1000A7B949 /* DaiDodgeKeyboardObjects.m in Sources */,
 				C44E4B211DF5011B00741D13 /* AppDelegate.m in Sources */,
+				C47EEC8C1E518D1000A7B949 /* DaiDodgeKeyboard+Animation.m in Sources */,
+				C47EEC701E51878100A7B949 /* mztools.c in Sources */,
 				C44E4B1E1DF5011B00741D13 /* main.m in Sources */,
 				C44E4B3F1DF50B8500741D13 /* PBFileManager.m in Sources */,
+				C47EEC6F1E51878100A7B949 /* ioapi.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +439,7 @@
 			baseConfigurationReference = B3B9D19CAE0FC7C5254BA502 /* Pods-PhotoBatchImport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PhotoBatchImport/PrefixHeader.pch;
 				INFOPLIST_FILE = PhotoBatchImport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -360,6 +453,7 @@
 			baseConfigurationReference = 3E5A53E532599B5B581C8518 /* Pods-PhotoBatchImport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PhotoBatchImport/PrefixHeader.pch;
 				INFOPLIST_FILE = PhotoBatchImport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

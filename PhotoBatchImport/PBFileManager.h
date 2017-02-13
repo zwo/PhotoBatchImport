@@ -11,5 +11,6 @@
 @interface PBFileManager : NSObject
 
 + (void)queryAllImageFilesInDocumentCompletion:(void (^)(NSArray *result))handler;
++ (NSArray *)queryAllImageFilesInPath:(NSString *)path;
 + (NSString *)documentPath;
 @end

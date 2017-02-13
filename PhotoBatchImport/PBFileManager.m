@@ -19,6 +19,15 @@
     handler([fileList filteredArrayUsingPredicate:predicate]);
 }
 
++ (NSArray *)queryAllImageFilesInPath:(NSString *)path
+{
+    NSFileManager *fileManager=[NSFileManager defaultManager];
+    NSError *error = nil;
+    NSArray *fileList = [fileManager contentsOfDirectoryAtPath:path error:&error];
+    NSPredicate *predicate=[NSPredicate predicateWithFormat:@"(pathExtension == 'jpg') OR (pathExtension == 'png') OR (pathExtension == 'jpeg')"];
+    return [fileList filteredArrayUsingPredicate:predicate];
+}
+
 + (NSString *)documentPath
 {
     static NSString *path;

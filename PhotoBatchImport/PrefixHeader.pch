@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  PhotoBatchImport
+//
+//  Created by zhouweiou on 17/2/13.
+//  Copyright © 2017年 R&F Properties. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#endif /* PrefixHeader_pch */
